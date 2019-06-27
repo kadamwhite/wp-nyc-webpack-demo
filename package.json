@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "wp-nyc",
+  "version": "1.0.0",
+  "description": "Demonstration of Human Made's frontend bundling toolkit.",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "K Adam White",
+  "license": "GPLv2"
+}
