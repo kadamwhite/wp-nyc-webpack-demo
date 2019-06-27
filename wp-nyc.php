@@ -20,6 +20,7 @@ function enqueue_block_assets() {
 		'wp-nyc-editor-blocks',
 		plugin_dir_url( __FILE__ ) . 'build/editor.js',
 		[
+			'wp-blocks',
 			'wp-components',
 			'wp-data',
 			'wp-element',
