@@ -12,7 +12,7 @@ namespace WP_NYC_Webpack_Toolkit_Demo;
 
 use Asset_Loader;
 
-function enqueue_block_editor_assets() {
+function enqueue_block_assets() {
   Asset_Loader\autoenqueue(
     plugin_dir_path( __FILE__ ) . '/build/asset-manifest.json',
     // Expect the bundle to be generated as editor.js
