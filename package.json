@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Demonstration of Human Made's frontend bundling toolkit.",
   "scripts": {
-    "build": "webpack --config=.config/webpack.prod.js"
+    "build": "webpack --config=.config/webpack.prod.js",
+    "start": "webpack-dev-server --config=.config/webpack.dev.js"
   },
   "keywords": [],
   "author": "K Adam White",
